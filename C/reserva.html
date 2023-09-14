@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<link href="consulta_projeto.css" rel="stylesheet">
+		<title>consultar Reservas</title>
+	</head>
+	<body>
+	    <header>
+      <div class="content">
+        <nav>
+          <p class="brand"><strong>77 Transportes</strong></p>
+          <ul>
+            <li><a href="../index.html">Nossa Empresa</a></li>
+            <li><a href="duvidas.html">Dúvidas</a></li>
+           <a href="../C/cadastro.html">  <button>Login</button> </a>
+          </ul>
+        </nav>      
+    </header>
+	<section class="box-form">
+		<h1>Consulta de Reservas</h1>
+		<h2>Entre com o código e um documento <br> para consultar suas reservas.</h2>
+	<form action="arquivo.php" method="post">
+		
+		<div>
+			<fieldset>
+			
+			<div>
+				<input type="radio" name="documento" value="CPF" id="CPF" checked> 
+				<label for="CPF">CPF</label>
+			</div>
+			<div>
+				<input type="radio" name="documento" value="doc.estragengeiro" id="doc.estragengeiro>
+				<label for="doc.estragengeiro"> 
+				<label>Doc. Estragengeiro</label>
+			</div>
+			<div>
+				<input type="radio" name="documento" value="passaporte" id="passaporte>
+				<label for="passaporte"> 
+				<label>Passaporte</label>
+			</div>
+			</fieldset>
+		</div>
+		
+		<div class="box-inputs">
+			<label>
+				<input class="inputs-blocos" type="text" name="nome" placeholder="Número do documento">
+			</label>
+			<label>
+				<input class="inputs-blocos" type="text" name="nome" placeholder="Número da reserva">
+			</label>
+			<button type="submit">CONSULTAR</button>
+		</div>
+	</form>
+</section>
+<footer>
+        <div class="main">
+          <div class="content footer-links">
+            <div class="footer-empresa">
+              <h4>Empresa</h4>
+              <h6>Sobre</h6>
+              <h6>Contato</h6>
+            </div>
+			
+            <div class="footer-aluguel">
+              <h4>Aluguel</h4>
+              <h6>Dirigir sozinho</h6>
+              <h6>Com motorista</h6>
+              <h6>Ajuda</h6>
+            </div>
+			
+            <div class="footer-conectado">
+              <h4>Permaneça conectado</h4>
+              <div class="social-icons">
+                <img src="../imagens/instagram.png" alt="Instagram" />
+                <img src="../imagens/facebook.png" alt="Facebook" />
+              </div>
+            </div>
+			
+            <div class="footer-contato">
+              <h4>Contato BR</h4>
+              <h6>+55 31 988776655</h6>
+              <h6>77transportes@gmail.com</h6>            
+            </div>
+			
+          </div>
+        </div>
+		
+        <div class="parte-baixo">77 transportes 2023 - 77 vezes mais você!</div>
+      </footer>
+	</body>
+	</html>

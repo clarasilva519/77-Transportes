@@ -1,0 +1,226 @@
+*{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  background: black;
+}
+
+.content {
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+nav {
+  width: 100%;
+  height: 125px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: grey;
+}
+
+nav ul button {
+  border: 1px solid white;
+  background: transparent;
+  padding: 10px 38px;
+  cursor: pointer;
+  margin-left: 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+nav ul button:hover {
+  transition: background, color 0.6s;
+  background: grey;
+  color: white;
+}
+
+h2{
+	font-size:1em;
+	font-family:sans-serif;
+	font-weight:100;
+	font-style:italic;
+	height:40px;
+}
+fieldset{
+	border:none;
+	font-size:1em;
+	font-family:sans-serif;
+	font-weight:100;
+	display:flex;
+	justify-content:center;
+	align-content:center;
+	flex-direction: column;
+	margin-right: 115px;
+}
+
+.box-form{
+	width: 400px;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: grey;
+	box-shadow:  0 0 10px rgb(0, 0, 0, 0.2);
+	flex-direction: column;
+	margin-top: 180px;
+}
+
+.box-inputs{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	margin-top: 15px;
+}
+
+
+label{
+	font-size:1em;
+	font-family:sans-serif;
+	font-weight:100;
+	margin-bottom: 8px;
+}
+
+.inputs-blocos{
+	width: 180px;
+	height: 35px;
+	border: solid 2px #000;
+	border-radius: 4px;
+	background-color: #919191;
+}
+
+.bt button{
+	display: flex;
+	justify-content:center;	
+	margin-bottom: 40px;
+	background-color: green;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow:  0 0 3px rgb(0, 0, 0, 0.2);
+	border-radius: 2px;
+	width: 120px;
+	height: 40px;
+	border: none;
+	margin-top: 10px;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.bt button:hover{
+	width: 130px;
+	height: 50px;
+}
+
+.links-form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+a{
+	margin-top: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+}
+
+footer .main {
+  width: 100%;
+  height: 200px;
+  background: black;
+  padding: 20px 10px;
+}
+
+.footer-links {
+  max-width: 1000px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.footer-empresa,
+.footer-aluguel,
+.footer-contato,
+.footer-conectado {
+  color: white;
+  height: 100%;
+  min-height: 100px;
+}
+
+.footer-links h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  margin-bottom: 8px;
+}
+
+.main .footer-conectado img {
+  width: 32px;
+  height: 32px;
+}
+
+footer .parte-baixo {
+  width: 100%;
+  height: 50px;
+  background: #c2c2c2;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
