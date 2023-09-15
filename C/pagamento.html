@@ -1,47 +1,58 @@
-
+<!DOCTYPE html>
 <html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
-		<link href="pag.css" rel="stylesheet">
 		<title>77 Transportes | Aluguel de Automóveis</title>
-		<link rel="icon" href="imagens/logos/logosite.png">
+		<link href="pag.css" rel="stylesheet">
 	</head>
+	<body>
 	
-    <body>
-     <header>	
+        <header>	
       <div class="content">
         <nav>
           <p class="brand"><strong>77 Transportes</strong></p>
-          <ul>
-            <li><a href="../index.html">Nossa Empresa</a></li>
+          <ul> <li><a href="../index.html">Nossa Empresa</a></li>
             <li><a href="../C/reserva.html">Reservas</a></li>
 			<li><a href="duvidas.html">Dúvidas</a></li>
 			<a href="../C/cadastro.html"><button>Login</button> </a>
           </ul>
         </nav>
+         </div>
     </header>
         
-                <div class="subtitulos">
-            <h1 class="sub">Informações para reserva</h1>
-            <br>
-        </div>
-            <section class="box-form">
-		<h1>FAÇA SUA RESERVA</h1>
-		<form action="arquivo.php" method="post">
-			<div class="box-inputs">
-				<label>Nome Completo<br>
-					<input class="inputs-blocos" type="text" name="nome" placeholder="Digite seu nome completo">
-				</label>
-				
-                <label> Telefone <br>
-                <input type="number" placeholder="(99) 99999-9999">
-                </label>
-                
-                <label> CPF <br>
+	<div>
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+    
+    <div class="container">
+    
+      <!--FORMULÁRIO DE Reserva-->
+        <div class="reserva">
+      <div id="cadastro">
+        <form method="post" action=""> 
+          <h1>Pagamento</h1> 
+          
+          <p> 
+            <label for="nome_cad">Nome completo do titular</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="José de Almeida" />
+          </p>
+          
+            <label> CPF 
                 <input type="text" placeholder="Digite seu cpf">
                 </label>
-                
-                <label> Forma de pagamento <br>
+            <br>
+            <br>
+          <p> 
+            <label for="email_cad">Seu e-mail</label>
+            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="77transportes@gmail.com"/> 
+          </p>
+          
+          <p> 
+            <label for="senha_cad">Telefone de contato</label>
+            <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="(99) 99999-9999"/>
+          </p>
+            
+             <label> Forma de pagamento <br>
                <select name="state" class="form-control selectpicker" >
             <option value="valor do financiamento" ><strong>Selecione como irá financiar</strong></option>
                 <option>Cartão de Crédito</option>
@@ -50,22 +61,37 @@
                 <option >Serviço Comunitário</option>
              </select>
                 </label>
+            <br>
+        <br>
                 
                  <label class="title-question">Detalhes da forma de Pagamento</label>
             <div class="input-group">
-                <textarea class="form-control" name="comment" placeholder="Nome do Pix ** Número do cartão * **"></textarea>
+                <textarea class="form-control" name="comment" placeholder="Chave Pix ou Número do cartão "></textarea>
             </div>
-               <div class="bt">
-				<button type="submit">FAZER RESERVA</button>
-			</div>
-			<div class="links-form">
-				<a href="">Ainda não sou cliente</a>
-				<a href="">Esqueci a minha senha</a>
-			</div>
-		</form>
-        </section>
-  
-    <footer>
+          <br>
+          <p> 
+            <input type="submit" value="Reservar"/> 
+          </p>
+          
+          <p class="link">  
+            Já tem conta?
+            <a href="#paralogin"> Cadastre-se </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div> 
+        </div>
+        
+        <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        <br>
+          <br>
+  <br>
+        <footer>
         <div class="main">
           <div class="content footer-links">
             <div class="footer-empresa">
@@ -101,5 +127,5 @@
         <div class="parte-baixo">77 transportes 2023 - 77 vezes mais você!</div>
       </footer>
         
-          </body>
-    </html>
+	</body>
+</html>
