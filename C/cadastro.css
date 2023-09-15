@@ -105,11 +105,7 @@ input[type="submit"]:hover{
 /*marcando os links para mudar de um formulário para outro */
 .link{
   position: absolute;
-<<<<<<< HEAD
   background: #e1eaeb;
-=======
-  background: #e1eaebS;
->>>>>>> 3f07c65671bbd0623ba7f0739a1496d26ab2f04e
   color: #7f7c7c;
   left: 0px;
   height: 20px;
@@ -124,10 +120,6 @@ input[type="submit"]:hover{
 }
 .link a {
   font-weight: bold;
-<<<<<<< HEAD
-=======
-  background: ;
->>>>>>> 3f07c65671bbd0623ba7f0739a1496d26ab2f04e
   padding: 6px;
   color: gray;
   margin-left: 10px;
@@ -140,15 +132,12 @@ input[type="submit"]:hover{
   transition: all 0.4s  linear;
 }
 .link a:hover {
-<<<<<<< HEAD
   color: white;
   background: #c2c2c2;
   border: 1px solid white;
-=======
-  color: #white;
+  color: white;
   background: #c2c2c2;
-  border: 1px solid #white;
->>>>>>> 3f07c65671bbd0623ba7f0739a1496d26ab2f04e
+  border: 1px solid white;
 }
 
 
